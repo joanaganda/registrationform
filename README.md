@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Basic Registration Form</title>
+    <title> Registration Form</title>
     <style>
         body { font-family: 'Segoe UI', sans-serif; background: #f4f4f9; display: flex; justify-content: center; padding: 40px; }
         .form-card { 
@@ -26,11 +26,10 @@
             font-size: 14px;
         }
         
-        /* Flexbox for the Split Name */
+    
         .name-row { display: flex; gap: 10px; }
         .name-row .field { flex: 1; }
 
-        /* Error States */
         .error-msg { color: #d9534f; font-size: 12px; display: none; margin-top: 4px; }
         input.invalid { border-color: #d9534f; background-color: #fff8f8; }
         
@@ -51,7 +50,7 @@
 <body>
 
 <div class="form-card">
-    <h2>Join Us</h2>
+    <h2>Registration Form</h2>
     <form id="regForm" novalidate>
         <div class="name-row">
             <div class="field">
